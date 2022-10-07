@@ -76,6 +76,11 @@ img {
   left: 70%;
   transform: translate(-50%, -50%);
 }
+
+.showcase-top .btn-login {
+  position: absolute;
+  left: 82%;
+}
 .showcase-content {
   position: relative;
   margin: auto;
@@ -92,7 +97,20 @@ img {
   line-height: 5.1rem;
 }
 
-.showcase-content p {
+.showcase-content #p1 {
+  color: #d8bb47;
+  font-weight: 300;
+  font-size: 1.9rem;
+  line-height: 1.25;
+  margin: 0 0 2rem;
+}
+
+.showcase-content #p1 b {
+  color: orange;
+  font: weight 2500px;
+}
+
+.showcase-content #p2 {
   color: orange;
   font-weight: 200;
   font-size: 1.9rem;
@@ -154,7 +172,7 @@ img {
   margin-right: 0.5rem;
   outline: none;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
-  border-radius: 2px;
+  border-radius: 30px;
 }
 
 .btn:hover {
@@ -162,7 +180,7 @@ img {
 }
 
 .btn-rounded {
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .btn-xl {

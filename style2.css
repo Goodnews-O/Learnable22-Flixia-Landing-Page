@@ -54,7 +54,7 @@ img {
   height: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 10px 100px 200px orange;
+  box-shadow: inset 10px 100px 130px orange;
 }
 .showcase-top {
   position: relative;

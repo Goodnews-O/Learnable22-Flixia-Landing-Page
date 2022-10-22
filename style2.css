@@ -84,6 +84,7 @@ img {
 .showcase-content {
   position: relative;
   margin: auto;
+  padding: 0 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
